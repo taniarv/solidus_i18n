@@ -343,11 +343,12 @@ es:
       continue: Continuar
       create: Crear
       destroy: Borrar
+      delete: Borrar
       edit: Editar
       list: Listar
       listing: Listando
       new: Nuevo
-      refund:
+      refund: Reembolsar
       save: Guardar
       update: Actualizar
     activate: Activar
@@ -371,7 +372,7 @@ es:
     additional_item: Coste de artículo adicional
     address1: Dirección
     address2: Dirección (cont.)
-    adjustable:
+    adjustable: Ajustable
     adjustment: Ajuste
     adjustment_amount: Cuantía
     adjustment_successfully_closed: El ajuste ha sido cerrado satisfactoriamente
@@ -381,18 +382,30 @@ es:
     admin:
       tab:
         configuration: Configuración
-        option_types:
+        settings: Ajustes
+        option_types: Tipos de opciones
         orders: Pedidos
         overview: Visión general
         products: Productos
         promotions: Promociones
         promotion_categories:
-        properties:
-        prototypes:
+        properties: Propiedades
+        prototypes: Prototipos
         reports: Informes
-        taxonomies:
-        taxons:
+        taxonomies: Clasificación (taxonomías)
+        taxons: Categorías (taxones)
         users: Usuarios
+        stock: Stock
+        Pages: Páginas
+        display_order: Orden de visualización
+        stock_items: Stock de productos
+        stock_transfers: Transferencia de stock
+        general: General
+        payments: Pagos
+        areas: Áreas
+        taxes: Impuestos
+        checkout: Devoluciones
+        shipping: Métodos de envío
       user:
         account: Cuenta
         addresses: Direcciones
@@ -638,7 +651,7 @@ es:
         user:
           signup: Dar de alta Usuario
     exceptions:
-      count_on_hand_setter: No se pudo establecer count_on_hand manualmente, ya que está establecido automáticamente por la callback recalculate_count_on_hand. Por favor utiliza `update_column(:count_on_hand, value)` en vez de ello.
+      count_on_hand_setter: "No se pudo establecer count_on_hand manualmente, ya que está establecido automáticamente por la callback recalculate_count_on_hand. Por favor utiliza `update_column(:count_on_hand, value)` en vez de ello."
     exchange_for:
     excl:
     existing_shipments:
@@ -680,6 +693,7 @@ es:
       language: Idioma
       localization_settings: Ajustes Localización
       this_file_language: Español
+      translations: Traducciones
     icon: Icono
     identifier:
     image: Imagen
@@ -813,6 +827,9 @@ es:
     no_pending_payments: No hay pagos pendientes
     no_products_found: No se encontraron productos
     no_resource_found: No se encontraron %{resource}
+    no_resource: No se encontraron %{resource}
+    create_one: Crear
+    shipment_number: Número de envio
     no_results: sin resultados
     no_returns_found:
     no_rules_added: No se añadieron reglas
@@ -872,7 +889,7 @@ es:
         thanks: "¡Gracias por su compra!"
         total: Total
     order_not_found: No pudimos encontrar tu pedido. Por favor intenta esta acción de nuevo
-    order_number:
+    order_number: "Número de pedido %{number}"
     order_processed_successfully: Tu pedido ha sido procesado con éxito
     order_resumed:
     order_state:
