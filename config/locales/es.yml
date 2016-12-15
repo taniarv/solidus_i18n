@@ -375,6 +375,11 @@ es:
     adjustable: Ajustable
     adjustment: Ajuste
     adjustment_amount: Cuantía
+    adjustment_labels:
+      tax_rates:
+        including_tax: '%{name}%{amount} (Incluido en el precio)'
+        excluding_tax: '%{name}%{amount}'
+        vat_with_rate: '%{name}%{amount} (Incluido en el precio)'
     adjustment_successfully_closed: El ajuste ha sido cerrado satisfactoriamente
     adjustment_successfully_opened: El ajuste ha sido abierto satisfactoriamente
     adjustment_total: Total del ajuste
